@@ -15,7 +15,9 @@ Run python crlf_scanner.py.
 
 Provide inputs:Enter the target URL when prompted.
 
-Enter the cookies associated with the target URL (optional).
+Enter the cookies associated with the target URL (optional). 
+
+Cookie-format:session=dJkrd8pkPVBBcNu2AX2ODMEdNY38Xw8f;
 Cookies are often used to maintain session state or store user preferences. If the target application requires cookies for authentication or specific functionality, you need to provide them for the script to send valid requests.
 Output:
 The script will iterate through the payload list and report whether the injection was successful for each payload.
