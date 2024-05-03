@@ -5,15 +5,16 @@ Features:
 
 Sends GET requests with various CRLF payloads to a target URL.
 Checks the response body for the presence of a predefined string ("InjectedString") to indicate successful injection.
-Tests a wide range of common CRLF injection payloads, including URL encoding variations and different line ending combinations.
-Usage:
+Tests a wide range of common CRLF injection payloads, including URL encoding variations and different line ending combinations
 
-Install dependencies: Ensure you have subprocess module installed (pip install subprocess).
-Run the script:
-Open a terminal and navigate to the directory where the script is saved.
+Usage:Install dependencies: Ensure you have subprocess module installed (pip install subprocess).
+
+Run the script:Open a terminal and navigate to the directory where the script is saved.
+
 Run python crlf_scanner.py.
-Provide inputs:
-Enter the target URL when prompted.
+
+Provide inputs:Enter the target URL when prompted.
+
 Enter the cookies associated with the target URL (optional).
 Cookies are often used to maintain session state or store user preferences. If the target application requires cookies for authentication or specific functionality, you need to provide them for the script to send valid requests.
 Output:
